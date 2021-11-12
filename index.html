@@ -4,16 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css" type="text/css">
-    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Landing page</title>
 </head>
 <body>
-    <div class="container">
-        <div class="box box1" id="header"></div>
-        <div class="box box2" id="info"></div>
-        <div class="box box3" id="quote"></div>
-        <div class="box box4" id="action"></div>
-        <div class="box box5" id="footer"></div>
-    </div>
+    <header>
+        <div class="headers">
+            <div class="header-logo text0">Header Logo</div>
+            <div class="header-link-text text1"><a class="header-link" href="#">header link one</a></div>
+            <div class="header-link-text text2"><a class="header-link" href="#">header link two</a></div>
+            <div class="header-link-text text3"><a class="header-link" href="#">header link three</a></div>
+        </div>
+        <div class="hero">
+            <div class="hero-text box1">
+                <div class="hero-main">This website is awesome
+                </div>
+                <div class="heroic">
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                </div>
+                <div class="hero-butt">
+                <button class="hero-button"><a class="button-link" href="#">Sign up</a></button>
+                </div> 
+            </div>
+            <div class="hero-img box2">
+                <div class="khali"></div>
+                <div class="img">
+                    <img class="img-box" src="https://unsplash.com/photos/F56Y7dgrAkc/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjM2NzA3MTc0&force=true" alt="Pink and violet Abstract Artwork by Pawel Czerwinski" title="Abstract Art by Pawel Czerwinski">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="info">
+            <h3 class="info-header">Some random information.</h3>
+            <div class="info-fig-holder">
+                <div>
+                    <figure class="info-fig">
+                        <div class="info-box jug1"></div>
+                        <figcaption class="info-text">this is some subtext under an illustration or image</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <div class="info-box jug2"></div>
+                        <figcaption class="info-text">this is some subtext under an illustration or image</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <div class="info-box jug3"></div>
+                        <figcaption class="info-text">this is some subtext under an illustration or image</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <div class="info-box jug4"></div>
+                        <figcaption class="info-text">this is some subtext under an illustration or image</figcaption></figure>
+                </div>
+            </div>
+        </section>
+        <section class="quote">
+            <figure class="quote-fig">
+                <blockquote>
+                    <p class="quot-text">&quot; This is an inspiring quote, or a testimonial from a customer.Maybe it's just filling up space, or maybe people will actually read it. 
+                        Who knows? All I know is that it looks nice. &quot;  
+                    </p>
+                </blockquote>
+                <figcaption class="quote-cap">-Thor,<cite>God of Thunder</cite></figcaption>
+            </figure>
+        </section>  
+        <section class="action">
+            <div class="blu-box">
+                <div class="blu-a">
+                    <h3 class="blu-main">Call to action! It's time!</h3>
+                    <p class="blue-sec">Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <div class="blu-b">
+                    <button class="action-button"><a class="button-link" href="#">Sign up</a></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="footer-text">Copyright &copy; The Odin Project 2021</p>
+    </footer>
 </body>
 </html>
